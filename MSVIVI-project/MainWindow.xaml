@@ -1,0 +1,17 @@
+﻿<Window x:Class="MSVIVI_project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MSVIVI_project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="643" Width="1100.85">
+    <Grid>
+        <Button Content="Import" HorizontalAlignment="Left" Margin="171,526,0,0" VerticalAlignment="Top" Width="75" Click="ImportButtonClick"/>
+        <Image HorizontalAlignment="Left" Height="320" Margin="50,102,0,0" VerticalAlignment="Top" Width="320" Name="DefaultImage" Source="./assets/images/image-small.png"/>
+        <Image HorizontalAlignment="Right" Height="320" Margin="0,102,50,0" VerticalAlignment="Top" Width="320" Name="ModifiedImage" Source="./assets/images/image-small.png"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="856,526,0,0" VerticalAlignment="Top" Width="75" Click="SaveButtonClicked"/>
+        <Button Content="Apply Bayer Filter" HorizontalAlignment="Left" Margin="497,254,0,0" VerticalAlignment="Top" Width="125" Click="ApplyBayerFilter"/>
+
+    </Grid>
+</Window>
